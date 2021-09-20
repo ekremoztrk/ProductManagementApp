@@ -1,0 +1,36 @@
+{
+  "ALLUSERS" : [ {
+    "password" : "1234",
+    "Username" : "admin",
+    "MANAGERS" : [ {
+      "password" : "1234",
+      "EMPLOYEES" : [ {
+        "password" : "123",
+        "Username" : "emp",
+        "Part" : {
+          "number" : 456,
+          "cost" : 10,
+          "name" : "part",
+          "status" : "Not Started"
+        },
+        "Id" : 2
+      } ],
+      "Username" : "man1",
+      "PRODUCT" : {
+        "number" : 111,
+        "cost" : 20,
+        "ASSEMBLIES" : [ ],
+        "PARTS" : [ {
+          "number" : 456,
+          "cost" : 10,
+          "name" : "part",
+          "status" : "Not Started"
+        } ],
+        "name" : "ass1",
+        "status" : "Not Started"
+      },
+      "Id" : 1
+    } ],
+    "Id" : 0
+  } ]
+}

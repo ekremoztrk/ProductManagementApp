@@ -1,0 +1,36 @@
+{
+  "assembliesAndParts" : {
+    "ASSEMBLIES" : [ {
+      "number" : 111,
+      "cost" : 20,
+      "ASSEMBLIES" : [ ],
+      "PARTS" : [ {
+        "number" : 456,
+        "cost" : 10,
+        "name" : "part",
+        "status" : "Not Started"
+      } ],
+      "name" : "ass1",
+      "status" : "Not Started"
+    } ]
+  },
+  "catalogEntries" : {
+    "CatalogEntries" : [ {
+      "number" : 456,
+      "cost" : 10,
+      "name" : "part"
+    }, {
+      "number" : 457,
+      "cost" : 10,
+      "name" : "part2"
+    }, {
+      "number" : 458,
+      "cost" : 10,
+      "name" : "part3"
+    }, {
+      "number" : 459,
+      "cost" : 10,
+      "name" : "part4"
+    } ]
+  }
+}
